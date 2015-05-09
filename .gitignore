@@ -2,5 +2,6 @@
 *.o
 *.tmp
 *.obj
+Makefile*
 pMarker/release/
 pMarker/debug/

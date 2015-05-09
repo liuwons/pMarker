@@ -17,8 +17,6 @@ int main(int argc, char *argv[])
     int val = screen_size->width() > screen_size->height() ? screen_size->width() / 2 : screen_size->height() / 2;
     QRect* window_rect   = new QRect((screen_size->width() - val) / 2, (screen_size->height() - val) / 2, val, val);
 
-    //QRect* window_rect   = new QRect(screen_size->width() / 4, screen_size->height() / 4, screen_size->width() / 2, screen_size->height() / 2);
-
     MainWindow w(window_rect);
     //w.createMarkDock();
     w.show();
