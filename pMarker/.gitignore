@@ -1,0 +1,11 @@
+*.user
+*.o
+*.tmp
+*.obj
+Makefile*
+Debug/
+Release/
+*.sdf
+*.vcxproj
+*.filters
+*.opensdf
